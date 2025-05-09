@@ -1,0 +1,69 @@
+/* Set overall background and text */
+/* body, .bg-dark {
+    background-color: #657cbd !important;
+    color: #ffffff !important;
+  }
+.container{
+    background-color: #0d1b2a;
+} */
+.bg-dark {
+    background-color: #657cbd !important;
+}
+.custom-dashboard-bg {
+    background-color: #0f054c !important;
+    color: #ffffff !important;
+  }
+  
+
+  
+  /* Adjust containers and cards for contrast */
+  .card {
+    background-color: #f8f9fa !important; /* Light background for content */
+    color: #212529 !important;            /* Bootstrap dark text */
+    border-radius: 1rem !important;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #1d3557 !important;
+    border-color: #1d3557 !important;
+  }
+  
+  .btn-outline-light {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff !important;
+    color: #0d1b2a !important;
+  }
+  
+  /* Headings */
+  h2, h4 {
+    font-weight: 600;
+  }
+  
+  /* Badges */
+  .badge.bg-success {
+    background-color: #2a9d8f !important;
+  }
+  
+  .badge.bg-warning {
+    background-color: #f4a261 !important;
+    color: #212529 !important;
+  }
+  
+  /* Form inputs */
+  .form-control {
+    border-radius: 0.5rem;
+  }
+  
+  /* Table */
+  .table thead th {
+    background-color: #1d3557 !important;
+    color: #ffffff !important;
+  }
+  

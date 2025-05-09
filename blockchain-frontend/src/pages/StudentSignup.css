@@ -1,0 +1,65 @@
+.signup-page {
+    background: linear-gradient(135deg, #001f4d, #000428); /* or use #001f3f, #003366 for variations */
+    padding: 2rem;
+  }
+  
+  
+  .signup-container {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #eff4f3, #153f6c);
+  }
+  
+  .signup-form {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .signup-illustration {
+    flex: 1;
+    background-color: #0037ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .signup-illustration img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .signup-container {
+      flex-direction: column;
+    }
+    .signup-illustration {
+      order: -1;
+    }
+  }
+  .custom-dark-btn {
+    background-color: #001f4d;
+    border-color: #001f4d;
+    color: white;
+  }
+  
+  .custom-dark-btn:hover {
+    background-color: #00163a;
+    border-color: #00163a;
+  }
+  .custom-dark-bg {
+    background-color: #f2f3f5; /* or another dark blue */
+  }
+    

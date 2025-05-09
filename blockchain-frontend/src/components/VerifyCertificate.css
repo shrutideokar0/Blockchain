@@ -1,0 +1,45 @@
+/* .sub_page {
+    background-color: #f4f6f9;
+    padding-top: 60px;
+  } */
+  .form-group {
+    color: black;
+  }
+  .about_section {
+    padding: 60px 0;
+  }
+  
+  .heading_container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #002c3e;
+  }
+  
+  .heading_container span {
+    color: #007bff;
+  }
+  
+  .verify-box {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+  }
+  
+  .verify-box .form-control {
+    border-radius: 8px;
+  }
+  
+  .verify-box .btn {
+    border-radius: 8px;
+  }
+  
+  .list-group-item strong {
+    color: #002c3e;
+  }
+  
+  #resultBox {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  

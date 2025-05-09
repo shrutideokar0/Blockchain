@@ -1,0 +1,46 @@
+.btn-institution,
+.btn-student,
+.btn-verify {
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Institution Button */
+.btn-institution {
+  background: linear-gradient(135deg, #3a47d5, #283e51);
+}
+
+.btn-institution:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(58, 71, 213, 0.4);
+}
+.white-text {
+  color: white;
+}
+
+
+/* Student Button */
+.btn-student {
+  background: linear-gradient(135deg, #f4faf9, #f3f7f8);
+}
+
+.btn-student:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 201, 167, 0.4);
+}
+
+/* Verify Button */
+.btn-verify {
+    background: linear-gradient(135deg, #00c9a7, #00b2e1);
+}
+
+.btn-verify:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 65, 108, 0.4);
+}
